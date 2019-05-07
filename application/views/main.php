@@ -89,7 +89,10 @@
 				$('#main-list').html(a);
 			},
 			error : function(){
-				alert('Kosong');
+				var popup = "";
+				popup = "<div class='alert alert-danger'>" + 
+  							"<strong>Danger!</strong> Indicates a dangerous or potentially negative action." + 
+						"</div>";
 			}
 		})
 	}
