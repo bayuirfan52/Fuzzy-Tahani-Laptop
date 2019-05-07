@@ -21,11 +21,17 @@ class Welcome extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		$this->load->library('FuzzyLibraries');
+		$this->load->model('Main');
 	}
 	
 	public function index()
 	{
 		$this->load->view('main');
+	}
+
+	public function cari()
+	{
+		$data = $this->Main->search_laptops();
+		echo json_encode($data);
 	}
 }

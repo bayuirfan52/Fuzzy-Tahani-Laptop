@@ -15,7 +15,7 @@
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-    
+
     class Admin extends CI_Controller
     {
         public function __construct() {
@@ -25,6 +25,13 @@
         public function index()
         {
             $this->load->view('admin/dashboard');
+            $this->load->view('admin/data');
+        }
+
+        public function program()
+        {
+            $this->load->view('admin/dashboard');
+            $this->load->view('admin/program');
         }
     }    
 ?>
