@@ -51,7 +51,8 @@ INSERT INTO `tbl_laptops` (`id_laptop`, `id_merk`, `nama_laptop`, `harga`, `nama
 (6, 6, 'TOSHIBA Portege R830', 3430000, 'Core i7', 3.4, 13.3),
 (7, 3, 'MSI GL62M 7RD', 12995000, 'Core i7', 2.8, 15.6),
 (8, 3, 'MSI GL62M 7RDX', 11799000, 'Core i7', 2.8, 15.6),
-(9, 1, 'ASUS ROG Strix GL503', 14299000, 'Core i7', 2.4, 15.6);
+(9, 1, 'ASUS ROG Strix GL503', 14299000, 'Core i7', 2.4, 15.6),
+(10, 4, 'Lenovo ThinkPad Yoga 12', 14649000, 'Core i7', 3, 13.5);
 
 -- --------------------------------------------------------
 
